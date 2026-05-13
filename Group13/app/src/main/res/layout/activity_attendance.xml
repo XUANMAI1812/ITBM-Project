@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic_background2">
+
+    <!-- HEADER -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingHorizontal="8dp"
+        android:layout_marginTop="15dp">
+
+        <ImageButton
+            android:id="@+id/imageButtonBack"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Back"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/ic_back"
+            app:tint="@color/darkblue"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bevietnampro_bold"
+            android:text="Attendance"
+            android:textColor="@color/darkblue"
+            android:textSize="20sp"
+            android:layout_marginLeft="16dp"
+            app:layout_constraintStart_toEndOf="@id/imageButtonBack"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- Camera preview (moved below HEADER) -->
+    <FrameLayout
+        android:id="@+id/qr_camera_preview"
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/header"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_camera" />
+
+    <!-- SCROLLABLE CONTENT -->
+    <ScrollView
+        android:id="@+id/content_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/qr_camera_preview"
+        android:layout_above="@id/bottomBar"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <!-- Info card -->
+            <LinearLayout
+                android:id="@+id/info_card"
+                android:layout_width="360dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="230dp"
+                android:background="@drawable/bg_soft_card"
+                android:backgroundTint="@color/white"
+                android:elevation="8dp"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <TextView
+                    android:id="@+id/tv_employee_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:fontFamily="@font/bevietnampro_regular"
+                    android:text="Name: "
+                    android:textColor="@color/darkblue"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_employee_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:fontFamily="@font/bevietnampro_regular"
+                    android:text="ID: "
+                    android:textColor="@color/darkblue"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:fontFamily="@font/bevietnampro_regular"
+                    android:text="Status: "
+                    android:textColor="@color/darkblue"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:fontFamily="@font/bevietnampro_regular"
+                    android:text="Time:"
+                    android:textColor="@color/darkblue"
+                    android:textSize="16sp" />
+
+                <!-- Buttons -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/btn_manual_check"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="0dp"
+                        android:backgroundTint="@color/darkblue"
+                        android:fontFamily="@font/bevietnampro_semibold"
+                        android:text="Save"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- BOTTOM NAVIGATION BAR -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:paddingHorizontal="20dp">
+
+        <!-- Home -->
+        <LinearLayout
+            android:id="@+id/navHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <ImageView
+                android:id="@+id/btn_employeelist"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@drawable/ic_house"
+                app:tint="@color/darkblue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bevietnampro_regular"
+                android:text="Home"
+                android:textColor="@color/darkblue"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <!-- Task -->
+        <LinearLayout
+            android:id="@+id/navProject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            app:layout_constraintStart_toEndOf="@id/navHome"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/navAttendance"
+            app:layout_constraintHorizontal_chainStyle="spread">
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@drawable/ic_folder"
+                app:tint="@color/darkblue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bevietnampro_regular"
+                android:text="Project"
+                android:textColor="@color/darkblue"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <!-- Attendance -->
+        <LinearLayout
+            android:id="@+id/navAttendance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            app:layout_constraintStart_toEndOf="@id/navProject"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/navAccount">
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@drawable/ic_calendar"
+                app:tint="@color/darkblue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bevietnampro_regular"
+                android:text="Attendance"
+                android:textColor="@color/darkblue"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <!-- Setting -->
+        <LinearLayout
+            android:id="@+id/navAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@drawable/ic_gear"
+                app:tint="@color/darkblue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bevietnampro_regular"
+                android:text="Setting"
+                android:textColor="@color/darkblue"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ITBM</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="project">Project</string>
+</resources>

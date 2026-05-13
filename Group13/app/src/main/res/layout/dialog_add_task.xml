@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- Main Title -->
+    <TextView
+        android:id="@+id/tvMainTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Reminder"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="8dp" />
+
+    <!-- Title -->
+    <EditText
+        android:id="@+id/edtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Title"
+        android:background="@drawable/custom_edittext"
+        android:padding="15dp"
+        android:layout_marginTop="10dp" />
+
+    <!-- Note -->
+    <EditText
+        android:id="@+id/edtNote"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="Note (optional)"
+        android:gravity="top"
+        android:background="@drawable/custom_edittext"
+        android:padding="15dp"
+        android:layout_marginTop="10dp" />
+
+    <!-- Start Date -->
+    <LinearLayout
+        android:id="@+id/layoutStartDate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/iconCalendarStart"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_calendar"
+            app:tint="@color/black"
+            android:contentDescription="calendar" />
+
+        <TextView
+            android:id="@+id/tvStartDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="End date:"
+            android:textColor="@color/darkblue"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtStartDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:text="Select end date"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <!-- End Date -->
+    <LinearLayout
+        android:id="@+id/layoutEndDate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/iconCalendarEnd"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_clock"
+            android:contentDescription="calendar" />
+
+        <TextView
+            android:id="@+id/tvEndDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="End time:"
+            android:textColor="@color/darkblue"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtEndDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:text="Select end time"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <!-- Priority -->
+    <TextView
+        android:id="@+id/tvPriority"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Priority:"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp" />
+
+    <LinearLayout
+        android:id="@+id/layoutPriority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <RadioGroup
+            android:id="@+id/rgPriority"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+
+            <RadioButton
+                android:id="@+id/rbLow"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="Low"
+                android:textAlignment="center"
+                android:button="@null"
+                android:background="@drawable/custom_edittext"
+                android:backgroundTint="@color/green"
+                android:textColor="#006400"/>
+
+            <RadioButton
+                android:id="@+id/rbMedium"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="Medium"
+                android:textAlignment="center"
+                android:button="@null"
+                android:layout_marginHorizontal="15dp"
+                android:background="@drawable/custom_edittext"
+                android:backgroundTint="@color/orange"
+                android:textColor="#FFA500"/>
+
+            <RadioButton
+                android:id="@+id/rbHigh"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="High"
+                android:textAlignment="center"
+                android:button="@null"
+                android:background="@drawable/custom_edittext"
+                android:backgroundTint="@color/red"
+                android:textColor="#8B0000"/>
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+    <!-- Save Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSaveTask"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Save"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        app:cornerRadius="30dp"
+        app:backgroundTint="@color/darkblue"/>
+</LinearLayout>

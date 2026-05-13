@@ -1,0 +1,182 @@
+<resources>
+
+    <string name="app_name">ITBM</string>
+
+    <string name="welcome">Chào mừng!</string>
+    <string name="welcomeback">Chào mừng bạn quay lại!</string>
+
+    <string name="login">Đăng nhập</string>
+    <string name="signup">Đăng ký</string>
+    <string name="email">Email</string>
+    <string name="password">Mật khẩu</string>
+    <string name="confirm_password">Xác nhận mật khẩu</string>
+    <string name="remember_me">Ghi nhớ đăng nhập</string>
+    <string name="forgot_your_password">Quên mật khẩu?</string>
+    <string name="or_login_with">Hoặc đăng nhập bằng</string>
+    <string name="enter_your_email">Nhập email của bạn</string>
+    <string name="send_reset_email">Gửi email đặt lại mật khẩu</string>
+    <string name="agreed_with">Tôi đã đọc và đồng ý với</string>
+    <string name="term_of_service">Điều khoản dịch vụ</string>
+    <string name="sale_staff">Nhân viên bán hàng</string>
+    <string name="title">Tiêu đề</string>
+    <string name="end_date">Ngày kết thúc</string>
+    <string name="end_time">Giờ kết thúc</string>
+    <string name="select_end_time">Chọn giờ kết thúc</string>
+
+    <string name="home">Trang chủ</string>
+    <string name="create">Tạo</string>
+    <string name="project">Dự án</string>
+    <string name="attendance">Chấm công</string>
+    <string name="setting">Cài đặt</string>
+    <string name="back">Quay lại</string>
+    <string name="leave_request">Nghỉ phép</string>
+    <string name="overtime">Tăng ca</string>
+    <string name="history">Lịch sử</string>
+    <string name="employee">Nhân viên</string>
+
+    <string name="attendance_history">Lịch sử chấm công</string>
+    <string name="attendance_records">Bản ghi chấm công</string>
+    <string name="history_details">Chi tiết lịch sử</string>
+    <string name="enter_reason_for_leave_request">Nhập lý do nghỉ phép</string>
+    <string name="enter_reason_for_leave_overtime">Nhập lý do tăng ca</string>
+    <string name="select_date_range">Chọn khoảng ngày</string>
+    <string name="select_time_range">Chọn khoảng thời gian</string>
+    <string name="select_start_date">Chọn ngày bắt đầu</string>
+    <string name="select_end_date">Chọn ngày kết thúc</string>
+    <string name="confirm">Xác nhận</string>
+    <string name="submit_request">Gửi yêu cầu</string>
+    <string name="signup_for_overtime">Đăng ký tăng ca</string>
+    <string name="overtime_request">Yêu cầu tăng ca</string>
+    <string name="placeholder">Nội dung mẫu</string>
+
+    <string name="employee_information">Thông tin nhân viên</string>
+    <string name="employee_name">Tên nhân viên</string>
+    <string name="employee_id">Mã nhân viên</string>
+    <string name="name">Tên:</string>
+    <string name="id">Mã số:</string>
+    <string name="gender">Giới tính:</string>
+    <string name="male">Nam</string>
+    <string name="female">Nữ</string>
+    <string name="phone_number">Số điện thoại</string>
+    <string name="employee_phone">Điện thoại:</string>
+    <string name="phone">Điện thoại: </string>
+    <string name="date_of_birth">Ngày sinh:</string>
+    <string name="select_date_of_birth">Chọn ngày sinh</string>
+    <string name="birthday">Sinh nhật:</string>
+    <string name="start_date">Ngày bắt đầu:</string>
+    <string name="department">Phòng ban:</string>
+    <string name="select_department">Chọn phòng ban</string>
+    <string name="position">Chức vụ</string>
+    <string name="employee_position">Chức vụ:</string>
+    <string name="select_position">Chọn chức vụ</string>
+    <string name="last_paycheck">Lần trả lương gần nhất</string>
+    <string name="information">Thông tin</string>
+
+    <string name="employee_list">Danh sách nhân viên</string>
+    <string name="add_employee">Thêm nhân viên</string>
+    <string name="search_employee">Tìm kiếm nhân viên...</string>
+    <string name="edit_detail">Chỉnh sửa</string>
+    <string name="delete_detail">Xóa</string>
+    <string name="delete_account">Xóa tài khoản</string>
+
+    <string name="search_empbloyee">Tìm kiếm nhân viên...</string>
+    <string name="recent_project">Dự án gần đây</string>
+    <string name="project_list">Danh sách dự án</string>
+    <string name="project_detail">Chi tiết dự án</string>
+    <string name="project_id">Mã dự án</string>
+    <string name="project_name">Tên dự án:</string>
+    <string name="project_title">Tiêu đề dự án</string>
+    <string name="project_description">Mô tả dự án</string>
+    <string name="project_management">Quản lý dự án:</string>
+    <string name="project_manager">Quản lý dự án:</string>
+    <string name="project_cost">Chi phí dự án</string>
+    <string name="start_date_project">Ngày bắt đầu:</string>
+    <string name="end_date_project">Ngày kết thúc:</string>
+    <string name="team_members">Thành viên nhóm:</string>
+    <string name="project_information">Thông tin dự án</string>
+    <string name="status">Trạng thái:</string>
+    <string name="select_status">Chọn trạng thái</string>
+    <string name="choose_project">Chọn dự án</string>
+    <string name="project_a">Dự án A</string>
+    <string name="percent_complete" formatted="false">65%</string>
+    <string name="search_project">Tìm kiếm dự án</string>
+
+    <string name="project_documents">Cập nhật tệp</string>
+    <string name="upload_document">Tải lên tài liệu (PDF/Hình ảnh)</string>
+    <string name="project_document">Tài liệu dự án</string>
+
+    <string name="profile">Hồ sơ</string>
+    <string name="my_task">Nhiệm vụ</string>
+    <string name="view_task">Xem công việc</string>
+    <string name="task_manager">Quản lý công việc</string>
+    <string name="add_task">Thêm công việc</string>
+    <string name="task_list">Danh sách công việc</string>
+    <string name="task_detail">Chi tiết công việc</string>
+    <string name="task_information">Thông tin công việc</string>
+    <string name="task_reminder">Nhắc nhở</string>
+    <string name="task_name">Tên công việc</string>
+    <string name="task_description">Mô tả công việc</string>
+    <string name="task_date">Ngày thực hiện</string>
+    <string name="task_time">Thời gian</string>
+    <string name="deadline">Hạn chót:</string>
+    <string name="select_deadline">Chọn thời gian</string>
+    <string name="note">Ghi chú:</string>
+    <string name="note_optional">Ghi chú (không bắt buộc)</string>
+    <string name="add_reminder">Thêm nhắc nhở</string>
+    <string name="priority">Mức độ ưu tiên:</string>
+    <string name="low">Thấp</string>
+    <string name="medium">Trung bình</string>
+    <string name="high">Cao</string>
+    <string name="search_task">Tìm kiếm công việc</string>
+
+    <string name="my_salary">Lương</string>
+    <string name="salary_information">Thông tin lương</string>
+    <string name="base_salary">Lương cơ bản</string>
+    <string name="salary_name">Tên</string>
+    <string name="salary_amount">Số tiền</string>
+    <string name="employee_salary">Lương:</string>
+    <string name="employee_position_salary">Chức vụ:</string>
+
+    <string name="notifications">Thông báo</string>
+    <string name="notification">Thông báo</string>
+    <string name="notification_title">Bạn được phân công dự án mới</string>
+    <string name="notification_content">Bạn đã được phân công vào dự án Quản lý bán hàng trực tuyến</string>
+    <string name="notification_time">3 giờ trước</string>
+
+    <string name="language">Ngôn ngữ</string>
+    <string name="select_language">Chọn ngôn ngữ</string>
+    <string name="english">Tiếng Anh</string>
+    <string name="vietnamese">Tiếng Việt</string>
+
+    <string name="search">Tìm kiếm...</string>
+    <string name="done">Hoàn tất</string>
+    <string name="all">Tất cả</string>
+    <string name="pending">Đang chờ</string>
+    <string name="save">Lưu</string>
+    <string name="cancel">Hủy</string>
+    <string name="close">Đóng</string>
+    <string name="yes">Có</string>
+    <string name="no">Không</string>
+    <string name="time">Thời gian: </string>
+
+    <string name="change_password">Đổi mật khẩu</string>
+    <string name="current_password">Mật khẩu hiện tại</string>
+    <string name="new_password">Mật khẩu mới</string>
+    <string name="confirm_new_password">Xác nhận mật khẩu mới</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="logout_message">Bạn có muốn đăng xuất không?</string>
+    <string name="deactivate_account">Vô hiệu hóa tài khoản</string>
+    <string name="deactivate_account_message">Bạn có muốn vô hiệu hóa tài khoản không?</string>
+    <string name="pending_costs">Chi phí chờ xử lý</string>
+    <string name="approved_costs">Chi phí được phê duyệt</string>
+    <string name="total">Tổng: </string>
+    <string name="project_cost_list">Danh sách chi phí dự án</string>
+    <string name="standard_working_hours">Giờ làm việc tiêu chuẩn</string>
+    <string name="delete_current_payslip">Xóa Phiếu Lương</string>
+    <string name="cost_name">Tên chi phí</string>
+    <string name="amount">Số tiền</string>
+    <string name="approved">Phê duyệt</string>
+    <string name="delete">Xóa</string>
+    <string name="task_title">Tiêu đề nhiệm vụ</string>
+    <string name="cost">Chi phí</string>
+</resources>

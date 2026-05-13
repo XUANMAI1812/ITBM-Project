@@ -1,0 +1,185 @@
+<resources>
+
+    <!-- App -->
+    <string name="app_name">ITBM</string>
+
+    <string name="welcome">Welcome!</string>
+    <string name="welcomeback">Welcome back!</string>
+
+    <string name="login">Login</string>
+    <string name="create">Create</string>
+    <string name="signup">Sign up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="project">Project</string>
+
+    <string name="confirm_password">Confirm password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="or_login_with">Or login with</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="send_reset_email">Send reset email</string>
+    <string name="agreed_with">I have read and agreed with the</string>
+    <string name="term_of_service">Terms of Service</string>
+    <string name="sale_staff">Sale staff</string>
+    <string name="title">Title</string>
+    <string name="end_date">End date</string>
+    <string name="end_time">End time</string>
+    <string name="select_end_time">Select end time</string>
+
+    <string name="home">Home</string>
+    <string name="attendance">Attendance</string>
+    <string name="setting">Setting</string>
+    <string name="back">Back</string>
+    <string name="leave_request">Leave Request</string>
+    <string name="overtime">Overtime</string>
+    <string name="history">History</string>
+    <string name="employee">Employee</string>
+
+    <string name="attendance_history">Attendance History</string>
+    <string name="attendance_records">Attendance Records</string>
+    <string name="history_details">History Details</string>
+    <string name="enter_reason_for_leave_request">Enter reason for leave request</string>
+    <string name="enter_reason_for_leave_overtime">Enter reason for leave overtime</string>
+    <string name="select_date_range">Select date range</string>
+    <string name="select_time_range">Select time range</string>
+    <string name="select_start_date">Select start date</string>
+    <string name="select_end_date">Select End Date</string>
+    <string name="confirm">Confirm</string>
+    <string name="submit_request">Submit Request</string>
+    <string name="signup_for_overtime">Sign up for overtime</string>
+    <string name="overtime_request">Overtime Request</string>
+    <string name="placeholder">Placeholder</string>
+
+    <string name="employee_information">Employee Information</string>
+    <string name="employee_name">Employee Name</string>
+    <string name="employee_id">Employee ID</string>
+    <string name="name">Name:</string>
+    <string name="id">ID:</string>
+    <string name="gender">Gender:</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="employee_phone">Phone:</string>
+    <string name="phone">Phone: </string>
+    <string name="date_of_birth">Date of birth:</string>
+    <string name="select_date_of_birth">Select date of birth</string>
+    <string name="birthday">Birthday:</string>
+    <string name="start_date">Start date:</string>
+    <string name="department">Department:</string>
+    <string name="select_department">Select Department</string>
+    <string name="position">Position</string>
+    <string name="employee_position">Position:</string>
+    <string name="select_position">Select Position</string>
+    <string name="last_paycheck">Last Paycheck</string>
+    <string name="information">Information</string>
+
+    <string name="employee_list">Employee List</string>
+    <string name="add_employee">Add Employee</string>
+    <string name="search_employee">Search Employee</string>
+    <string name="edit_detail">Edit</string>
+    <string name="delete_detail">Delete</string>
+    <string name="delete_account">Delete Account</string>
+
+    <string name="recent_project">Recent project</string>
+    <string name="project_list">Project List</string>
+    <string name="project_detail">Project Detail</string>
+    <string name="project_information">Project Information</string>
+    <string name="project_id">Project ID</string>
+    <string name="project_name">Project Name:</string>
+    <string name="project_title">Project title</string>
+    <string name="project_description">Project Description</string>
+    <string name="project_management">Project Management:</string>
+    <string name="project_manager">Project Manager:</string>
+    <string name="project_cost">Project cost</string>
+    <string name="start_date_project">Start date:</string>
+    <string name="end_date_project">End date:</string>
+    <string name="team_members">Team Members:</string>
+    <string name="status">Status:</string>
+    <string name="select_status">Select Status</string>
+    <string name="choose_project">Choose Project</string>
+    <string name="project_a">Project A</string>
+    <string name="percent_complete" formatted="false">65%</string>
+    <string name="search_project">Search Project</string>
+
+    <string name="project_documents">Update File</string>
+    <string name="upload_document">Upload Document (PDF/Image)</string>
+    <string name="project_document">Project Document</string>
+
+    <string name="profile">Profile</string>
+    <string name="my_task">My task</string>
+    <string name="view_task">View Task</string>
+    <string name="task_manager">Task Manager</string>
+    <string name="add_task">Add Task</string>
+    <string name="task_list">Task List</string>
+    <string name="task_detail">Task Detail</string>
+    <string name="task_information">Task Information</string>
+    <string name="task_reminder">Task Reminder</string>
+    <string name="task_name">Task name</string>
+    <string name="task_description">Task Description</string>
+    <string name="task_date">Task Date</string>
+    <string name="task_time">Task Time</string>
+    <string name="deadline">Deadline:</string>
+    <string name="select_deadline">Select deadline</string>
+    <string name="note">Note:</string>
+    <string name="note_optional">Note (optional)</string>
+    <string name="add_reminder">Add Reminder</string>
+    <string name="priority">Priority:</string>
+    <string name="low">Low</string>
+    <string name="medium">Medium</string>
+    <string name="high">High</string>
+    <string name="search_task">Search Task</string>
+
+    <string name="my_salary">My salary</string>
+    <string name="salary_information">Salary Information</string>
+    <string name="base_salary">Base salary</string>
+    <string name="salary_name">Name</string>
+    <string name="salary_amount">Amount</string>
+    <string name="employee_salary">Salary:</string>
+    <string name="employee_position_salary">Position:</string>
+
+    <string name="notifications">Notifications</string>
+    <string name="notification">Notification</string>
+    <string name="notification_title">New project assigned</string>
+    <string name="notification_content">You have been assigned to the project Online Sales Management</string>
+    <string name="notification_time">3 hours ago</string>
+
+    <string name="language">Language</string>
+    <string name="select_language">Select Language</string>
+    <string name="english">English</string>
+    <string name="vietnamese">Vietnamese</string>
+
+    <string name="search">Search...</string>
+    <string name="done">Done</string>
+    <string name="all">All</string>
+    <string name="pending">Pending</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="close">Close</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="time">Time: </string>
+
+    <string name="change_password">Change Password</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="logout">Log Out</string>
+    <string name="logout_message">Do you want to log out?</string>
+    <string name="deactivate_account">Deactivate Account</string>
+    <string name="deactivate_account_message">Do you want to deactivate your account?</string>
+    <string name="search_empbloyee">Search employee...</string>
+    <string name="pending_costs">Pending Costs</string>
+    <string name="approved_costs">Approved Costs</string>
+    <string name="total">Total: </string>
+    <string name="project_cost_list">Project Cost List</string>
+    <string name="standard_working_hours">Standard Working Hours</string>
+    <string name="delete_current_payslip">Delete Current Payslip</string>
+    <string name="cost_name">Cost name</string>
+    <string name="amount">Amount</string>
+    <string name="approved">Approved</string>
+    <string name="delete">Delete</string>
+    <string name="task_title">Task title</string>
+    <string name="cost">Cost</string>
+
+</resources>

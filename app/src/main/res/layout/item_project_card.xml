@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="8dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="3dp"
+    app:cardBackgroundColor="#FFFFFF"
+    android:foreground="?attr/selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="12dp">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_folder"
+            app:tint="@color/darkblue"
+            android:layout_marginEnd="12dp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvProjectName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dự án A"
+                android:textSize="16sp"
+                android:textColor="@color/darkblue"
+                android:fontFamily="@font/bevietnampro_semibold"/>
+
+            <TextView
+                android:id="@+id/tvProjectManager"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quản lý: Nguyễn Văn A"
+                android:textColor="#666"
+                android:textSize="14sp"
+                android:fontFamily="@font/bevietnampro_regular"
+                android:layout_marginTop="2dp"/>
+
+            <TextView
+                android:id="@+id/tvProjectDeadline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Deadline: 31/12/2025"
+                android:textColor="#333"
+                android:textSize="14sp"
+                android:layout_marginTop="2dp"
+                android:fontFamily="@font/bevietnampro_regular"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/btnEditProject"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_edit"
+            app:tint="#888"
+            android:layout_marginEnd="8dp" />
+
+        <ImageView
+            android:id="@+id/btnDeleteProject"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_delete"
+            app:tint="#E57373" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
